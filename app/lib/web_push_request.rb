@@ -74,7 +74,7 @@ class WebPushRequest
   end
 
   def payload_subject
-    [:mailto, contact_email].join(':')
+    contact_email
   end
 
   def vapid_key

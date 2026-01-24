@@ -112,7 +112,7 @@ class About extends PureComponent {
             <div className='about__meta__column'>
               <h4><FormattedMessage id='about.contact' defaultMessage='Contact:' /></h4>
 
-              {isLoading ? <Skeleton width='10ch' /> : <a className='about__mail' href={`mailto:${server.item?.contact?.email}`}>{server.item?.contact?.email}</a>}
+              {isLoading ? <Skeleton width='10ch' /> : <a className='about__mail' href={`${server.item?.contact?.email}`}>{server.item?.contact?.email}</a>}
             </div>
           </div>
 

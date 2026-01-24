@@ -25,7 +25,7 @@ export const Footer = () => {
           id='custom_homepage.contact'
           defaultMessage='Contact:'
         />
-        <a href={`mailto:${email}`}>{email}</a>
+        <a href={`${email}`}>{email}</a>
       </div>
 
       <Link to='/privacy-policy' rel='privacy-policy'>
