@@ -454,6 +454,7 @@
   "footer.source_code": "צפיה בקוד המקור",
   "footer.status": "מצב",
   "footer.terms_of_service": "תנאי השירות",
+  "form_field.optional": "(אפשרות)",
   "generic.saved": "נשמר",
   "getting_started.heading": "בואו נתחיל",
   "hashtag.admin_moderation": "פתיחת ממשק פיקוח דיון עבור #{name}",
